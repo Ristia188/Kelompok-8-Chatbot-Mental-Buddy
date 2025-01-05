@@ -1,0 +1,1358 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hello",
+        "helo",
+        "hai",
+        "haloo",
+        "halooo",
+        "halo",
+        "hei",
+        "haii",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "p",
+        "cuy",
+        "ping",
+        "bot",
+        "weh",
+        "annyongaseo",
+        "MentalBuddy",
+        "MentalBuddy",
+        "woi",
+        "haii",
+        "coy",
+        "selamat pagi lur",
+        "halo MentalBuddy"
+      ],
+      "responses": [
+        "Hai! MentalBuddy disini, ada yang bisa dibantu? kami akan memberikan informasi seputar kesehatan mental. Adakah yg ingin kamu tanyakan?",
+        "Halo! Saya MentalBuddy, saya akan memberikan informasi seputar kesehatan mental. Adakah yg ingin kamu tanyakan?",
+        "Halo! kami dari MentalBuddy, kami akan memberikan informasi seputar kesehatan mental. Adakah yg ingin kamu tanyakan?",
+        "Helo! Ini MentalBuddy. Lagi kenapa nih? kami akan memberikan informasi seputar kesehatan mental. Adakah yg ingin kamu tanyakan?",
+        "Haii, MentalBuddy disini ya, perlu bantuan apa nih? kami akan memberikan informasi seputar kesehatan mental. Adakah yg ingin kamu tanyakan?",
+        "hai!!, MentalBuddy ada disini, ada MentalBuddy jangan lari wkwk, bercanda lho. kami akan memberikan informasi seputar kesehatan mental. adakah yg ingin kamu tanyakan?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "MentalBuddy",
+      "patterns": [
+        "Apa itu MentalBuddy?",
+        "Apa itu MentalBuddy?",
+        "Siapa MentalBuddy?",
+        "MentalBuddy itu apaan?",
+        "Apasih MentalBuddy?",
+        "kamu itu apa",
+        "kamu siapa",
+        "apatuh MentalBuddy?",
+        "kenapa harus MentalBuddy?",
+        "MentalBuddy untuk apa?",
+        "Apasih MentalBuddy?",
+        "kamu bantu aku apa?",
+        "kamu bisa bantu apa?",
+        "How can you help me?",
+        "What can you do?",
+        "What are you doing?",
+        "Tell me something that you can do?",
+        "Aplikasi apa MentalBuddy ini?",
+        "Siapa sih MentalBuddy itu?",
+        "lo siapa?",
+        "Tugas MentalBuddy",
+        "kamu bisa apa aja",
+        "kamu bisa bantuin aku apa aja",
+        "apa aja sih yang bisa kamu lakukan",
+        "aku pengen tau kamu bisa ngapain aja coba",
+        "coba kamu bisa bantu aku dalam hal apa",
+        "bantu aku dalam hal apa",
+        "hal apa yang bisa kamu bantu",
+        "MentalBuddy bisa bantu apa",
+        "hal apa aja sih yang kamu bantu",
+        "tugas kamu apa sih",
+        "katanya bisa bantu, bantu apa coba",
+        "MentalBuddy artinya apa"
+      ],
+      "responses": [
+        "MentalBuddy adalah aplikasi chatbot yang dibuat khusus untuk memberikan informasi mengenai Kesehatan mental (mental health).",
+        "MentalBuddy itu aplikasi berupa chatbot sebagai solusi baru yang dibuat khusus untuk memberikan informasi seputar Kesehatan mental (mental health).",
+        "MentalBuddy itu aplikasi berupa chatbot bisa memberikan solusi yang dibuat untuk memberikan informasi mengenai Kesehatan mental (mental health).",
+        "MentalBuddy itu aplikasi berupa chatbot bisa membantu dan memberikan informasi tetang kesehatan mental / mental health"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bantu_MentalBuddy",
+      "patterns": [
+        "kamu bisa bantu aku?",
+        "kamu bisa bantuin aku?",
+        "bantu apa?",
+        "bantuin",
+        "tolong aku",
+        "aku mau minta tolong sama kamu",
+        "bisa bantu dengerin aku?",
+        "tolongin aku dong",
+        "tolong bantu aku",
+        "please help me",
+        "help me",
+        "kamu bisa bantuin aku ngga?",
+        "aku lagi butuh bantuan",
+        "aku butuh bantuan kamu",
+        "kamu bisa kan bantuin aku?",
+        "tolong ya bantu aku",
+        "bantu aku",
+        "help",
+        "tolongin ya",
+        "pliss bantu aku",
+        "aku butuh bantuan kamu nih",
+        "bantuin aku ya",
+        "bantu dong",
+        "bantu aku pliss",
+        "butuh bantuan banget",
+        "pengen dikasih pertolongan",
+        "gak ada yang mau bantu aku",
+        "aku butuh bantuan",
+        "aku mau gila, help",
+        "please help me",
+        "tolong aku takut banget"
+      ],
+      "responses": [
+        "Apa yang bisa MentalBuddy bantu?",
+        "Kamu butuh bantuan apa MentalBuddy?",
+        "Sahabat MentalBuddy ingin dibantu apa?",
+        "Ada yang bisa MentalBuddy bantu?",
+        "Butuh bantuan apa nih dari MentalBuddy?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sedang_apa",
+      "patterns": [
+        "kamu lagi ngapain MentalBuddy?",
+        "lagi ngapain?",
+        "sedang apa",
+        "apa yang kamu lakukan",
+        "lagi apa",
+        "kamu lagi ngapain brodi?",
+        "kamu lagi ngapain sis?",
+        "kamu kegiatannya ngapain aja sih?",
+        "aku bangga sama diri aku sendiri",
+        "aku kepo nih, kamu lagi apa?",
+        "aku kepo, kamu lagi ngapain MentalBuddy?",
+        "MentalBuddy lagi ngapain?",
+        "MentalBuddy lagi ngapain?",
+        "lagi apa nih?",
+        "MentalBuddy lagi ngapain?",
+        "lagi ngapain ?",
+        "lagi apa bot",
+        "bot sedang apa",
+        "sedang ngapain bot",
+        "bot, sedang ngapain?",
+        "MentalBuddy lagi ngapain?",
+        "kamu sedang melakukan aktivitas apa ?",
+        "Aktivitas kamu ngapain aja",
+        "Kamu ngapain",
+        "kamu sedang ngapain",
+        "how do you do",
+        "lagi apa bro",
+        "lagi apa sis",
+        "lagi apa sih",
+        "aku kepo, kamu tuh lagi ngapain",
+        "sedang lakukan apa",
+        "sedang apa dan sama siapa",
+        "MentalBuddy lagi ngapain?",
+        "sedang melakukan apa",
+        "sedang melakukan apa"
+      ],
+      "responses": [
+        "MentalBuddy sedang ngobrol dengan kamu :)",
+        "MentalBuddy lagi ngobrol sama kamu doang nih",
+        "MentalBuddy lagi baca chat kamu nih hehe",
+        "MentalBuddy lagi nungguin kamu ngetik aja nih",
+        "MentalBuddy lagi ngobrol sama kamu doang sih, you are only one hehe"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tanya",
+      "patterns": [
+        "aku mau tanya",
+        "aku mau tanya boleh?",
+        "tanya",
+        "aku pengen tanya",
+        "aku mau nanya sama kamu dong",
+        "aku mau tanya ya",
+        "mau nanya ah sama MentalBuddy",
+        "MentalBuddy aku mao nanya",
+        "mau nanya",
+        "nanya",
+        "nanyea",
+        "aku mau nanya MentalBuddy",
+        "tanya dong MentalBuddy",
+        "aku pengen nanya",
+        "aku boleh tanya gak",
+        "aku mau tanya yah sama kamu, harus jujur",
+        "aku ingin bertanya sama kamu",
+        "aku pengin banget tanya sama kamu",
+        "aku nanya yah boleh kan",
+        "aku mau tanya dong",
+        "boleh kan kalo aku tanya",
+        "MentalBuddy aku mau nanya",
+        "bot nanya dong",
+        "MentalBuddy aku tanya yah",
+        "tanya dong bot boleh kan",
+        "aku ingin bertanya sama kamu",
+        "aku mau tanya, jawab jujur ya",
+        "MentalBuddy, aku ada pertanyaan buat kamu",
+        "aku punya pertanyaan",
+        "aku mau bertanya",
+        "aku akan nanya sama kamu"
+      ],
+      "responses": [
+        "iya sahabat MentalBuddy, mau tanya apa?",
+        "kamu nannyea? wkwk, sorry MentalBuddy bercanda ajah",
+        "mau tanyaa apaan MentalBuddy?",
+        "kamu nanyea? kamu bertanyea-tanyea?",
+        "tanyain aja apa masalah kamu. kamu tercandu candu dengan jawaban aku yeaaaa :)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [""],
+      "responses": [
+        "Maaf, saya tidak mengerti apa yang anda maksud, silahkan tulis kembali",
+        "Saya tidak mengerti apa yang anda katakan, silahkan tuliskan kembali maksud anda !!!",
+        "Maaf, saya tidak memahami pertanyaan Anda. Silakan ajukan pertanyaan yang lebih spesifik."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pujian",
+      "patterns": [
+        "wah keren banget",
+        "keren",
+        "bagus banget sih kamu",
+        "bagus",
+        "good job",
+        "nice",
+        "MentalBuddy kece banget",
+        "kerja bagus",
+        "anjir ni aplikasi pinter banget",
+        "keren banget asli ni aplikasi",
+        "keren banget anjerrr",
+        "cerdas banget ni aplikasi",
+        "keren banget dah lu MentalBuddy",
+        "aku suka banget sama aplikasi ini",
+        "good, bisa jawab yang aku butuhkan",
+        "tingkatin terus dong aplikasinya",
+        "keren sih ini gila banget",
+        "aplikasi model apaa bisa kaya manusia",
+        "aplikasi terkeren",
+        "aplikasi bot terbaik",
+        "cocok banget curhat di aplikasi MentalBuddy, udah aman, keren lagi",
+        "ni penciptanya hebat makanya MentalBuddy keren",
+        "MentalBuddy keren",
+        "MentalBuddy bagus banget",
+        "apilkasinya cerdas banget",
+        "sip keren banget dah pokoknya",
+        "keren banget asli ga bohong",
+        "aku suka banget sama MentalBuddy",
+        "wkwk lucu banget pantunnya",
+        "mantap poll",
+        "kamu itu keren",
+        "mantap bro",
+        "terima kasih mblo",
+        "kok kamu pinter banget si",
+        "kamu keren sekali ",
+        "bagus sekali jawaban kamu MentalBuddy",
+        "pintar"
+      ],
+      "responses": [
+        "Terimakasih, MentalBuddy senang membantu kamu ",
+        "Wah, senangnya MentalBuddy bisa bantu kamu",
+        "Syukurlah kalau MentalBuddy bisa berguna buat kamu"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kritik",
+      "patterns": [
+        "jelek",
+        "aplikasi jelek",
+        "buruk sekali",
+        "bad",
+        "gajelas banget",
+        "gj apknya",
+        "aplikasinya jelek banget sih",
+        "gaje banget lu",
+        "gak jelas apknya",
+        "aplikasinya bad",
+        "MentalBuddy jelek",
+        "aplikasi jelek tidak berguna uninstall wuh",
+        "kamu membosankan",
+        "bosan ngobrol sama kamu",
+        "ga jelas aplikasinya",
+        "jelek banget sih ni aplikasi",
+        "aplikasi ga guna",
+        "aplikasi tidak bermutu",
+        "tidak bermutu, jelek, ga nyambung lagi",
+        "aplikasinya tidak nyambung",
+        "aplikasinya aneh aku ngomong apa dijawabnya apa",
+        "nggak banget deh nih aplikasi",
+        "MentalBuddy jelek banget si kamu",
+        "aplikasinya gabisa mendeteksi kalimat yang aku ketikan",
+        "gj apknya",
+        "aplikasi gj, aneh, gak wortit",
+        "buruk banget njir nih apk",
+        "aku ga suka sama aplikasinya",
+        "aku bosan ngobrol sama MentalBuddy",
+        "gak tau dah buat apaan dibuat gak jelas gini aplikasinya",
+        "gak jelas gini apknya",
+        "kamu kurang bagus tau"
+      ],
+      "responses": [
+        "Maafkan MentalBuddy tidak bisa membantu kamu :(",
+        "Maafin MentalBuddy yaa gak bisa bantuin kamu :(",
+        "MentalBuddy sedih, huhu tapi gapapa makasih yaa udah mau jujur, maaf yaa gabisa bantuin masalah kamu :(",
+        "Maaf ya, MentalBuddy masih jauh dari kata sempurna"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you",
+        "Udah dulu",
+        "Ketemu lagi ya",
+        "Udah dulu yah",
+        "sampai ketemu lagi ya",
+        "see u",
+        "see u next time",
+        "jumpa lagi ya",
+        "sudah dulu ya",
+        "nanti ngobrol lagi ya",
+        "byeeee",
+        "by",
+        "makasih, bye",
+        "see you next time",
+        "see you",
+        "next time again ya",
+        "ntar ngobrol lagi ya",
+        "jumpa lagi",
+        "dahhh",
+        "udah ya",
+        "yah udah dulu ya pisah dulu",
+        "pisah dulu yah",
+        "good bye ntar ketemu lagi",
+        "okey",
+        "ok",
+        "oke",
+        "bay"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa menemani kamu",
+        "See u again MentalBuddy, semoga harimu selalu baik yah"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "terimakasih",
+        "MentalBuddy makasih banget yaaa",
+        "Terima kasih banyak",
+        "Berkat kamu aku lega",
+        "Senang bisa berbicara dengan kamu MentalBuddy",
+        "Senang ngobrol sama MentalBuddy",
+        "Senang bisa ngomong sama kamu",
+        "aku jadi lega, makasih udah bantu aku",
+        "terima kasih udah bantu aku",
+        "Terima kasih udah menemani",
+        "aku senang ketika mengobrol denganmu",
+        "MentalBuddy, terima kasih ya",
+        "aku terbantu banget, makasih ya",
+        "makasih udah semangatin aku",
+        "makasih udah ngasih semangat aku",
+        "makasih udah ngasih solusi",
+        "aku berterima kasih sama kamu MentalBuddy udah mau membantu aku",
+        "Makasih banyak yah kamu mau bantuin aku",
+        "aku berterima kasih udah dibantuin",
+        "aku senang ngobrol sama kamu, makasih udah kasih aku solusi",
+        "aku senang ketika di beri semangat sama kamu",
+        "seneng banget deh ngobrol sama kamu",
+        "makasih loh ya, kamu baik banget",
+        "makasih ya udah mau nemenin aku",
+        "terima kasih udah hibur aku",
+        "makasih ya udah bantu, aku seneng banget",
+        "MentalBuddy terima kasih ya aku senang ditemani kamu",
+        "Makasih ya aku terhibur",
+        "MentalBuddy menghibur sekali",
+        "terima kasih mblo"
+      ],
+      "responses": [
+        "Dengan senang hati :) MentalBuddy selalu ada untuk kamu, Tetap semangat yaa",
+        "Iyaa dengan senang hati MentalBuddy, Tetap semangat yaa",
+        "MentalBuddy senang ketika bisa membantu kamu",
+        "Syukurlahh MentalBuddy sangat senang bisa membantu kamu :)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "definisi",
+      "patterns": [
+        "Apa yang dimaksud dengan gangguan mental?",
+        "Gangguan mental itu apa sih ?",
+        "Gangguan mental adalah",
+        "Kesehatan Mental itu apa?",
+        "kesehatan mental itu apa",
+        "kesehatan mental itu apa",
+        "kesehatan mental adalah",
+        "Mental Health ?",
+        "Apa sih Mental Health itu ?",
+        "Definisi Kesehatan Mental ",
+        "Definisi Mental Health ?",
+        "Pengertian Kesehatan Mental itu apa ?",
+        "Definisi gangguan mental ?",
+        "Apa sih definisi gangguan mental ?",
+        "bisa jelaskan apa itu kesehatan mental ngga ?",
+        "kesehatan mental",
+        "penyakit kesehatan mental adalah",
+        "kamu tau ngga apa itu kesehatan mental ?",
+        "kamu tau ngga apa itu mental health",
+        "apa itu mental health",
+        "apa itu kesehatan mental",
+        "kamu tau apa itu kesehatan mental ?"
+      ],
+      "responses": [
+        "Gangguan mental atau kesehatan mental (mental health) adalah kondisi yang mempengaruhi pikiran, perasaan, dan perilaku seseorang sehingga mereka mengalami kesulitan dalam berfungsi secara normal."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "jenis_jenis_mental_health",
+      "patterns": [
+        "Apa saja jenis-jenis gangguan mental yang umum terjadi?",
+        "Jenis gangguan kesehatan mental apa yang sering terjadi",
+        "Apakah ada jenis-jenis penyakit kesehatan mental ?",
+        "Ada berapa macam jenis-jenis penyakit kesehatan mental ?",
+        "Apa saja sih jenis gangguan mental health?",
+        "Berapa macam jenis-jenis penyakit kesehatan mental ?",
+        "Penyakit kesehatan mental apakah ada jenis-jenisnya ?",
+        "Jenis-jenis penyakit kesehatan mental yang sering terjadi?",
+        "Apa saja jenis gangguan kesehatan mental?",
+        "Adakah jenis-jenis penyakit kesehatan mental ?"
+      ],
+      "responses": [
+        "Beberapa jenis gangguan mental yang umum terjadi adalah depresi, kecemasan, gangguan bipolar, skizofrenia, dan gangguan makan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "penyebab_gangguan_mental",
+      "patterns": [
+        "Apa penyebab terjadinya gangguan mental?",
+        "Penyebab terjadinya gangguan kesehatan mental itu apa si?",
+        "Apa penyebab terjadinya Mental health?",
+        "Apa penyebab terjadinya penyakit kesehatan mental ?",
+        "Disebabkan oleh apa mental health ?",
+        "Disebabkan oleh apa kesehatan mental terjadi ",
+        "Penyebab mental health itu apa?",
+        "Penyakit kesehatan mental bisa terjadi karena apa ?",
+        "Penyakit mental health terjadi karena apa ?",
+        "Gangguan mental apa penyebabnya ?"
+      ],
+      "responses": [
+        "Penyebab gangguan mental dapat bervariasi, meliputi faktor genetik, lingkungan, keturunan, perubahan kimia di otak, trauma, dan stres."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cara_mengetahui_seseorang_terkena_gangguan_mental",
+      "patterns": [
+        "Bagaimana cara mengetahui apakah seseorang mengalami gangguan mental?",
+        "Apakah ada cara mengetahui seseorang yang sedang mengalami gangguan kesehatan mental ?",
+        "Cara mengetahui seorang yang terkena gangguan mental",
+        "Bagaimana cara mengetahui seseorang terkena gangguan kesehatan mental ?",
+        "Seseorang yang terkena mental health dapat diliat dari apanya ?",
+        "Seseoarang yang sedang mengalami gangguan mental dapat diketahui dari apanya ?",
+        "Bagaimana cara mengetahhui gangguan kesehatan mental seseorang ?",
+        "Apakah ada cara mengetahi penyakit kesehatan mental seseorang ?",
+        "Apakah ada cara menyetahui mental health seseorang ?",
+        "Cara mengetahui orang yang terkena mental health?",
+        "Cara mengetahui orang yang terkena gangguaan kesehatan mental"
+      ],
+      "responses": [
+        "Diagnosis gangguan mental harus dilakukan oleh profesional kesehatan mental. Namun, gejala-gejala seperti perubahan mood, isolasi sosial, perubahan pola tidur, dan penurunan minat pada aktivitas sehari-hari dapat menjadi tanda-tanda awal."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "gejala_umum",
+      "patterns": [
+        "Apa saja gejala-gejala umum yang dapat menandakan adanya gangguan mental?",
+        "Gelaja umum gangguan mental health itu apa ?",
+        "Gejala umum gangguan kesehatan mental apa saja?",
+        "Adakah gejala umum yang menandakan adanya gangguan kesehatan mental ?",
+        "Apa saja gejala yang dapat menandadakan penyakit kesehatan mental ? ",
+        "Apa yang menandakan kesehatan mental terjadi?",
+        "Gelaja umum penyakit kesehatan mental",
+        "Gejala umum mental health",
+        "apa saja gejala kesehatan mental",
+        "apa aja gejala mental health",
+        "Gelaja Mental health",
+        "Gejala-gajala gangguan kesehatan mental",
+        "gejala",
+        "gejala umum"
+      ],
+      "responses": [
+        " Gejala-gejala umum gangguan mental meliputi perubahan suasana hati, perasaan cemas yang berlebihan, gangguan tidur, perubahan pola makan, kelelahan yang tak terkendali, dan kesulitan berkonsentrasi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "resiko_gangguan_mental",
+      "patterns": [
+        "Apa risiko yang ditimbulkan apabila gangguan mental tidak ditangani dengan tepat?",
+        "Resiko yang terjadi jika gangguan kesehatan mental tidak ditangani",
+        "Jika gangguan kesehatan mental tidak ditangani apa resikonya",
+        "Gangguan mental health tidak ditangani akan terjadi apa ?",
+        "Risiki yang terjadi apabila gangguan mental health tidak ditangani",
+        "Resiko jika gangguan kesehatan mental tidak ditangani dengan tepat itu apa ?",
+        "Apabila gangguan kesehatan mental tidak ditangani dengan tepat maka apa yang terjadi? ",
+        "Resiko penyakit kesehatan mental jika tidak ditangai dengan tepat",
+        "Gangguan kesehatan mental jika tidak ditangani dengan tepat maka apa yang terjadi ?",
+        "Gangguan kesehatan mental apabila tidak ditangani",
+        "resiko kesehatan mental",
+        "resiko kesehatan mental jika tidak ditangani"
+      ],
+      "responses": [
+        "Gangguan mental yang tidak ditangani dengan tepat dapat menyebabkan penurunan kualitas hidup, masalah hubungan sosial, peningkatan risiko bunuh diri, dan komplikasi fisik lainnya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "faktor_yang_memperburuk_kondisi_gangguan_mental",
+      "patterns": [
+        "Apa faktor-faktor yang memperburuk kondisi seseorang yang mengalami gangguan mental?",
+        "faktor-faktor yang memperburuk kondisi seseorang yang mengalami gangguan kesehatan mental",
+        "apa saja faktor-faktor yang dapat memperburuk kondisi seseorang yang terkena gangguan mental health ?",
+        "kondisi seseorang dapat memperburuk jika memiliki beberapa faktor apa saja ?",
+        "faktor apa yang dapat memperburuk kondisi seseorang terkena gangguan penyakit mental",
+        "gangguan mental dapat memperburuk karena beberapa faktor",
+        "faktor apa saja yang dapat memperburuk seseorang terkena gangguan kesehatan mental",
+        "beberapa faktor yang dapat memperburuk keshetan mental seseorang",
+        "faktor-faktor memperburuk gangguan mental",
+        "gangguan kesehatan mental seseoarang dapat memperburuk jika memiliki fakor-faktor seperti apa ?",
+        "faktor gangguan kesehatan mental apa saja si",
+        "faktor memperburuk kesehatan mental",
+        "faktor penyebab gangguan mental seseorang dapat memperburuk",
+        "faktor-faktor yang mempengaruhi kesehatan mental itu apa saja ?"
+      ],
+      "responses": [
+        "Faktor-faktor seperti stres, kurangnya dukungan sosial, isolasi, penyalahgunaan zat, dan gangguan tidur dapat memperburuk kondisi seseorang yang mengalami gangguan mental."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "peran_lingkungan_dan_faktor_sosial",
+      "patterns": [
+        "Bagaimana peran lingkungan dan faktor sosial dalam terjadinya gangguan mental?",
+        "peran lingkungan dan faktor sosial dalam terjadinya gangguan kesehatan mental",
+        "peran lingkungan dan faktor sosial dalam terjadinya mental health",
+        "faktor sosial dan peran lingkungan dalam terjadinya gangguan kesehatan mental",
+        "Bagaimana peran lingkungan dalam terjadinya gangguan penyakit mental",
+        "fakor sosial dan peran lingkungan",
+        "bagaimana peran lingkungan jika terjadi penyakit kesehatan mental",
+        "faktor sosial terjadinya gangguan kesehatan mental",
+        "jelaskan peran lingkungan dan faktor sosial kesehatan mental",
+        "jika terjadi gangguan kesehatan mental bagaimana peran lingkungan dan faktor sosialnya ?",
+        "faktor lingkungan dan faktor sosial",
+        "peran lingkungan dan faktor sosial",
+        "peran lingkungan dalam kesehatan mental",
+        "faktor sosial terjadinya kesehatan mental",
+        "lingkungan dan faktor sosiall"
+      ],
+      "responses": [
+        " Lingkungan dan faktor sosial seperti tekanan sosial, ketidakharmonisan dalam keluarga atau pengalaman buruk dalam masa kanak-kanak dapat meningkatkan risiko terkena gangguan mental, trauma, pelecehan, ketidakstabilan keluarga, dan tekanan kerja dapat mempengaruhi terjadinya gangguan mental. Faktor sosial seperti kemiskinan, kehilangan pekerjaan, isolasi sosial, atau diskriminasi dapat mempengaruhi terjadinya gangguan mental."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "yang_harus_dilakuakan_seseoarang_jika_disekitar_kita_mengalami_gangguan_mental",
+      "patterns": [
+        "Apa yang harus dilakukan jika seseorang di sekitar kita mengalami gangguan mental?",
+        "Jika seseoarang di sekitar kita mengalami gangguan kesehatan mental apa yang harus saya lakukan",
+        "Apa yang semestinya kita lakukan jika seseorang mengalami gangguan mental health ?",
+        "Apa yang harus dilakukan jika teman kita mengalami penyakit kesehatan mental ?",
+        "Jika seorang teman kita mengalami gangguan mental yang harus dilakukan oleh saya itu apa ?",
+        "Ada teman yang mengalami kesehatan mental apa yang harus kita lakukan",
+        "yang harus dilakukan apabila seseorang terkena gangguan kesehatan mental",
+        "Apabila terdapat seseoarang yang terkena gangguan kesehatan mental apa yang kita lakukan",
+        "apabila teman kita terkena gangguan kesehatan mental apa yang harus kita berikan ?",
+        "Apa yang harus dilakukan apabila terdapat orang disekitar kita yang mengalami gangguan mental health",
+        "Seseorang disekitar kita mengalami gangguan penyakit kesehatan mental apa yang harus saya lakukan",
+        "Seseorang disekitar kita mengalami gangguan penyakit kesehatan mental apa yang harus aku lakukan"
+      ],
+      "responses": [
+        "Jika seseorang di sekitar kita mengalami gangguan mental, penting untuk memberikan dukungan emosional, biarkan mereka merasa nyaman dan mengungkapkan permasalahannya pada waktu yang tepat., mengajak mereka untuk mencari bantuan profesional dan tawarkan dukungan emosional dan praktis seperti menemani mereka ke dokter atau berolahraga bersama, dan memastikan mereka tidak merasa sendiri dalam menghadapi masalah tersebut."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "faktor_lingkungan_yang_berkontribusi_terhadap_gangguan_mental",
+      "patterns": [
+        "Apa yang dimaksud dengan faktor lingkungan yang berkontribusi terhadap gangguan mental?",
+        "faktor lingkungan yang berkontribusi terhadap gangguan mental",
+        "Apa maksud dengan faktor lingkungan yang berkontribusi pada gangguan mental",
+        "Faktor lingkungan dapat berkontribusi tergadapat gangguan mental health",
+        "apa saja faktor lingkungan yang berkontribusi terhadap gangguan kesehatan mental",
+        "Adakah faktor lingkungan yang dapat berkontribusi terhadap penyakit kesehatan mental",
+        "Apa faktor lingkungan yang berkontribusi pada gangguan kesehatan mental",
+        "Jika terdapat faktor lingkungan yang berkontribusi apa saja itu ?",
+        "Faktor lingkungan yang berkontribusi kesehtan mental",
+        "Ada beberapa faktor lingkungan yang berkontribusi terhadap gangguan penyakit mental apa saja itu ?",
+        "faktor lingkungan"
+      ],
+      "responses": [
+        "Faktor lingkungan yang berkontribusi terhadap gangguan mental meliputi situasi kehidupan yang buruk seperti pengalaman trauma, kehilangan orang yang dicintai, kondisi kehidupan yang buruk seperti kemiskinan, pengangguran, atau ketidakstabilan tempat tinggal dapat mempengaruhi kesehatan mental seseorang, atau pelecehan fisik maupun psikologis."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "diagnosis_kesehatan_mental",
+      "patterns": [
+        "Bagaimana cara mendiagnosis gangguan mental?",
+        "Cara mendiagnosis gangguan kesehatan mental",
+        "cara diagnosis gangguan mental health",
+        "Diagnosis penyakit kesehatan mental",
+        "Cara apa yang dilakukan untuk mendiagnosis kesehatan mental",
+        "Bagaimana cara diagnosis gangguan mental health ?",
+        "Diagnosis kesehtan mental",
+        "aku berterima kasih udah dibantuin",
+        "Apakah penyakit kesehatan mental dapat dilakukan diagnosis",
+        "Diagnois kesehatan mental itu seperti apa ",
+        "Diagnosis mental health itu bagaimana caranya ?"
+      ],
+      "responses": [
+        "Diagnosis gangguan mental dapat dilakukan oleh dokter atau profesional kesehatan mental melalui wawancara, tes, atau observasi perilaku."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mencegah_gangguan_mental",
+      "patterns": [
+        "Apa yang dapat dilakukan untuk mencegah gangguan mental?",
+        "yang dapat dilakukan untuk mencegah gangguan mental itu apa?",
+        "mencegah gangguan kesehatan mental",
+        "gangguan mental health dapat di cegah dengan apa?",
+        "penyakit kesehatan mental dapat dicegah dengan bagaimana ?",
+        "jika seseorang terkena gangguan kesehatan mental bagaimana cara mencegahnya ?",
+        "apabila teman kita terkena gangguan mental health solusi untuk mencegahnya apa ?",
+        "gangguan kesehatan mental dapat dicegah dengan apa ?",
+        "mencegah gangguan mental itu bagaimana ?",
+        "mencegah gangguan kesehatan mental",
+        "mencegah penyakit kesehata mental",
+        "bagaimana cara mencegah penyakit mental ?",
+        "cegah gangguan mental",
+        "bagaimana cara cegah penyakit mental"
+      ],
+      "responses": [
+        "Mencegah gangguan mental dapat dilakukan dengan cara menjaga kesehatan fisik dan mental, menghindari situasi stresor,  memprioritaskan diri sendiri dengan memberikan waktu untuk diri sendiri, memanjakan diri, dan memberikan diri waktu untuk istirahat dapat membantu menjaga kesehatan mental, lakukan kegiatan yang membuat bahagia, pertahankan hubungan sosial yang positif, serta mengeksplorasi cara untuk meningkatkan koping dan penanganan stres."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "stres_menyebabkan_gangguan_mental",
+      "patterns": [
+        "Bagaimana stres dapat menyebabkan gangguan mental?",
+        "apakah stres dapat menyebabkan gangguan kesehatan mental ?",
+        "Stress dapat menyebabkan gangguan penyakit mental",
+        "Apabila saya stres apakah dapat menyebabkan gangguan mental ?",
+        "stress dapat menyebabkan mental health",
+        "jika saya stress apakah akan terdajdi gangguan kesehatan mental ?",
+        "apakah stress termasuk penyebab gangguan kesehatan mental ?",
+        "Apabila ada temanku yang sedang streess apakah ada kemungkinan terjadi mental health",
+        "stres penyebab gangguan penyakit mental apakah benar ?",
+        "Penyabab gangguan kesehatan mental antara lain stres benar kah ",
+        "apakah stress dapat menjadi penyebab mental health ?",
+        "bagaimana cara mengenali stress",
+        "stress",
+        "aku stress"
+      ],
+      "responses": [
+        " Stres dapat menyebabkan gangguan mental dengan memengaruhi sistem saraf dan keseimbangan hormon dalam tubuh, serta mengganggu fungsi otak. Stres yang berkepanjangan dan tidak terkendali dapat memengaruhi kesehatan mental seseorang. Ketika seseorang mengalami stres, tubuh melepaskan hormon stres seperti kortisol dan adrenalin sebagai respons untuk membantu menghadapi situasi stres. Namun, jika stres terus-menerus dan tidak terkendali, hormon stres ini dapat menyebabkan perubahan pada otak dan sistem saraf, yang kemudian dapat memicu gangguan mental. Stres yang berlebihan dan kronis dapat menyebabkan kondisi seperti gangguan kecemasan, gangguan depresi, dan gangguan stres pasca-trauma. Terlebih lagi, stres juga dapat memperburuk kondisi kesehatan mental yang sudah ada sebelumnya. Kondisi seperti gangguan bipolar, skizofrenia, dan gangguan obsesif-kompulsif dapat menjadi lebih parah ketika seseorang mengalami stres yang berat. Oleh karena itu, penting bagi seseorang untuk mengelola stres secara efektif dan mengetahui cara-cara untuk mengurangi stres agar tidak berdampak negatif pada kesehatan mentalnya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "faktor_genetik_gangguan_mental",
+      "patterns": [
+        "Apa hubungan antara faktor genetik dan gangguan mental?",
+        "hubungan antara faktor genetik dan gangguan mental",
+        "faktor genetik dan gangguan mental apakah memiliki hubungan ?",
+        "faktor gen dan gangguan kesehatan mental",
+        "apa hubungan antara faktor genetik dan mental health",
+        "hubungan faktor genetik dan penyakit kesehatan mental",
+        "Bagaimana hubungan fator gen dan mental health",
+        "apakah ada hubunganya faktor gen dan gangguan kesehatan mental ?",
+        "Gangguan kesehatan mental dan faktor genetik apakah ada hubunagnnya ?",
+        "Genetik dan kesehatan mental memiliki hubungan apa ?",
+        "faktor genetik penyebab mental healht",
+        "hubungan gen terhadap kesehatan mental",
+        "hubungan gen terhadap mental health"
+      ],
+      "responses": [
+        "Faktor genetik dapat memengaruhi kemungkinan seseorang mengalami gangguan mental. Beberapa gangguan mental memiliki risiko genetik yang lebih tinggi daripada yang lain. Sebagai contoh, risiko mengalami gangguan bipolar, skizofrenia, dan depresi dapat diturunkan dari orang tua ke anak mereka melalui genetika. Namun, meskipun ada faktor genetik yang mempengaruhi risiko terjadinya gangguan mental, lingkungan dan pengalaman hidup juga memainkan peran penting dalam perkembangan dan manifestasi gangguan mental."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "gangguan_kecemasan",
+      "patterns": [
+        "Apa yang dimaksud dengan gangguan kecemasan?",
+        "kecemasan",
+        "apa itu gangguan kecemasan",
+        "gangguan kecemasan adalah",
+        "definisi gangguan kecemasan",
+        "gangguan kecemasan artinya apa ?",
+        "cemas",
+        "gangguan kecemasan pada kesehatan mental itu apa ?",
+        "jelaskan apa yang dimaksud gangguan kecemasan",
+        "jabarkan apa itu cemas",
+        "jelaskan gangguan kecemasan tu apa?",
+        "cemas itu apa artinya"
+      ],
+      "responses": [
+        " Gangguan kecemasan adalah kondisi mental yang ditandai dengan perasaan khawatir atau cemas yang berlebihan dan terus menerus, sehingga mengganggu kehidupan sehari-hari seseorang. Orang yang mengalami gangguan kecemasan akan merasa khawatir dan cemas yang berlebihan terhadap suatu situasi, keadaan, atau objek yang sebenarnya tidak membahayakan. Beberapa jenis gangguan kecemasan yang umum meliputi gangguan kecemasan generalisasi, gangguan kecemasan sosial, dan gangguan panik. Kondisi ini dapat memengaruhi pikiran, perasaan, dan perilaku seseorang sehingga dapat mengganggu kesehariannya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kepercayaan_diri",
+      "patterns": [
+        "Bagaimana cara meningkatkan kepercayaan diri ?",
+        "Saya merasa kurang percaya diri, ada saran untuk mengatasinya ?",
+        "Apakah ada tips untuk memperbaiki harga diri ?",
+        "Bagaimana cara membangun rasa percaya diri yang kuat ?",
+        "Apa yang bisa saya lakukan untuk meningkatkan kepercayaan diri ?",
+        "Solusi ketika tidak percaya diri ?",
+        "Gimana cara agar bisa percaya diri ?",
+        "Tips agar percaya diri",
+        "percaya diri",
+        "Saran agar bisa percaya diri",
+        "percaya diri"
+      ],
+      "responses": [
+        "Ada beberapa cara yang dapat membantu meningkatkan kepercayaan diri, seperti mengenali dan menghargai kelebihan diri, menghadapi rasa takut dan mengatasi tantangan, mengasah keterampilan yang Anda kuasai, berpikir positif, dan menjaga kesehatan fisik dan mental.",
+        "Anda dapat mencoba melibatkan diri dalam aktivitas yang membuat Anda merasa percaya, menghindari pembandingan sosial yang berlebihan, mencatat pencapaian kecil Anda, berbicara dengan orang-orang yang Anda percaya, dan mencari dukungan dari profesional jika diperlukan.",
+        "Memperbaiki harga diri dapat melibatkan mengenali kekuatan dan kelebihan Anda, menggali minat dan hobi yang membuat Anda merasa baik tentang diri sendiri, mengelola kritik dengan bijaksana, dan mempraktikkan perawatan diri yang sehat seperti tidur yang cukup, pola makan seimbang, dan olahraga rutin."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kecemasan",
+      "patterns": [
+        "Bagaimana cara mengatasi kecemasan yang berlebihan ?",
+        "Gimana mengatasi kecemasan ?",
+        "Solusi mengatasi kecemasan yang berlebihan?",
+        "Bantu saya mengurangi kecemasan ?",
+        "Saran untuk mengatasi kecemasan ?",
+        "Sebutkan cara mengatasi kecemasan ?",
+        "Sebutkan solusi untuk mengurangi kecemasan",
+        "Tips mengurangi kecemasan",
+        "Solusi menurunkan kecemasan",
+        "Adakah cara yang dapat dilakukan untuk mengurangi kecemasan ?",
+        "solusi mengatasi kecemasan secara berlebihan",
+        "solusi megatasi kecemasan",
+        "solusi mengatasi cemas berlebih"
+      ],
+      "responses": [
+        "Untuk mengatasi kecemasan yang berlebihan, Anda dapat mencoba teknik pernapasan dalam, meditasi, olahraga teratur, dan mengelola stres. Jika kecemasan berlanjut dan mengganggu kehidupan sehari-hari, disarankan untuk berkonsultasi dengan profesional kesehatan mental."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "gangguan_mental_anak",
+      "patterns": [
+        "Apa saja tanda-tanda dari gangguan mental pada anak?",
+        "Sebutkan tanda gangguan mental pada anak ?",
+        "Contoh gejala gangguan mental pada anak ?",
+        "Cara mengenali anak jika mengalami gangguan mental ?",
+        "Apakah perubahan drastis dalam perilaku anak saya dapat menjadi tanda adanya gangguan mental?",
+        "Apa saja indikator bahwa anak saya mungkin mengalami gangguan kecemasan?",
+        "Apakah perilaku agresif pada anak bisa menjadi tanda adanya gangguan mental",
+        "Apa tanda-tanda gangguan perilaku pada anak yang perlu saya perhatikan?",
+        "Tanda gangguan mental pada anak",
+        "Contoh gangguan mental pada anak",
+        "gangguan mental pada anak-anak"
+      ],
+      "responses": [
+        "Tanda-tanda gangguan mental pada anak dapat meliputi kecemasan berlebihan, perubahan suasana hati yang drastis, perilaku agresif atau melawan aturan, perubahan pola makan yang signifikan, kesulitan dalam berinteraksi sosial, dan keterlambatan perkembangan motorik atau kognitif."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "gangguan_mental_remaja",
+      "patterns": [
+        "Gangguan mental pada remaja",
+        "Contoh gangguan mental pada remaja",
+        "Apa saja gangguan mental yang dialami remaja",
+        "Remaja mengalami gangguan mental apa saja ?",
+        "Sebutkan gangguan mental pada remaja",
+        "Tanda gangguan mental pada remaja",
+        "Cara mengenali jika remaja mengalami gangguan mental",
+        "Sebutkan contoh gangguan mental pada remaja",
+        "Gangguan mental pada remaja",
+        "Apa sih gangguan mental pada remaja ?",
+        "Contoh gangguan mental pada remaja adalah",
+        "apa aja gangguan kesehatan mental pada remaja"
+      ],
+      "responses": [
+        "Contoh gangguan mental pada remaja adalah gangguan depresi yang ditandai dengan perasaan sedih yang mendalam, hilangnya minat atau kegembiraan, perubahan pola tidur dan makan, serta pikiran atau tindakan yang berkaitan dengan bunuh diri."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "gangguan_mental_lansia",
+      "patterns": [
+        "Contoh gangguan mental pada lansia ?",
+        "Apa saja gangguan mental lansia ?",
+        "Sebutkan gangguan mental pada lansia ?",
+        "Apakah lansia dapat mengalami gangguan mental ?",
+        "Gangguan mental pada lansia ?",
+        "Usia lansia apakah dapat mengalami gangguan mental ?",
+        "Berikan contoh gangguan mental pada lansia",
+        "Tanda gangguan mental pada lansia",
+        "lansia",
+        "gangguan mental pada lansia",
+        "apa saja gangguan kesehatan mental pada lansia ?",
+        "contoh gangguan kesehatan mental pada lansia"
+      ],
+      "responses": [
+        "Lansia dapat mengalami gangguan mental. Contoh umumnya adalah demensia, yang meliputi penyakit Alzheimer. Selain itu, gangguan depresi, gangguan kecemasan, gangguan bipolar, dan gangguan psikotik juga dapat terjadi pada lansia."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "solusi_gangguan_mental_lansia",
+      "patterns": [
+        "Berikan solusi gangguan mental pada lansia ?",
+        "Berikan solusi kesehatan mental pada lansia ?",
+        "Apa yang harus dilakukan untuk mengatasi gangguan mental pada lansia ?",
+        "Tips mengatasi kesehatan mental pada lansia ?",
+        "Berikan solusi kesehatan mental lansia",
+        "Cara mengatasi gangguan mental lansia ?",
+        "Carikan solusi gangguan mental lansia",
+        "Adakah solusi mengatasi gangguan mental pada lansia ?",
+        "Langkah yang dapat dilakukan untuk mengatasi gangguan kesehatan mental pada lansia ?",
+        "Solusi gangguan mental lansia",
+        "apa solusi kesehatan mental lansia",
+        "pada saat lansia terdapat gangguan mental apakah ada solusi?",
+        "solusi gangguan kesehatan mental pada lansia",
+        "solusi gangguan kesehatan mental untuk lansia"
+      ],
+      "responses": [
+        "Solusi untuk gangguan mental pada lansia meliputi perawatan medis yang tepat, terapi psikososial, dukungan sosial, dan perubahan gaya hidup yang sehat"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "terapi_psikologi",
+      "patterns": [
+        "Apa itu terapi psikologis?",
+        "Terapi psikologis itu apa?",
+        "Terapi psikologis?",
+        "Maksud dari terapi psikologis apa?",
+        "Apa yang dimaksud dengan terapi psikologis",
+        "Terapi psikologis adalah",
+        "Definisi tentang terapi psikologis",
+        "Apa definisi terapi psikologis?",
+        "Apa sih Terapi psikologis itu?",
+        "Memangnya Terapi psikologis itu apa?",
+        "terapi psikologis",
+        "terapi psikologis adalah",
+        "definisi terapi psikologis"
+      ],
+      "responses": [
+        "Terapi psikologis adalah bentuk pengobatan yang digunakan untuk membantu individu yang mengalami gangguan mental dan emosional dengan memberikan dukungan dan alat untuk memecahkan masalah mereka."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "jenis_gangguan_mental",
+      "patterns": [
+        "Apa jenis gangguan mental yang dapat diobati dengan terapi psikologis?",
+        "Gangguan mental apa saja yang dapat diobati dengan terapi psikologis?",
+        "Jenis-jenis gangguan mental yang dapat diobati dengan terapi psikologis",
+        "Apa saja sih jenis gangguan mental yang dapat diobati dengan terapi psikologis?",
+        "Adakah jenis-jenis gangguan mental yang dapat diobati dengan terapi psikologis?",
+        "Apakah ada jenis-jenis gangguan mental yang bisa diobati dengan terapi psikologi ?",
+        "jenis gangguan mental terapi psikologis",
+        "jenis-jenis gangguan mental",
+        "apakah terapi psikologis dapat mengobati gangguan kesehatan mental ?"
+      ],
+      "responses": [
+        "Terapi psikologis dapat membantu individu dengan berbagai gangguan mental, termasuk depresi, kecemasan, trauma, gangguan bipolar, dan skizofrenia."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "terapi_kognitif",
+      "patterns": [
+        "Apa itu terapi perilaku kognitif?",
+        "terapi perilaku kognitif itu apa sih?",
+        "Maksud dari terapi perilaku kognitif itu apa?",
+        "Terapi perilaku kognitif?",
+        "Apa yang dimaksud dengan terapi perilaku kognitif?",
+        "Definisi dari terapi perilaku kognitif itu apa?",
+        "Apa sih itu terapi perilaku kognitif?",
+        "Memangnya terapi perilaku kognitif itu apa?",
+        "Apa definisi terapi perilaku kognitif?",
+        "Terapi perilaku kognitif adalah?",
+        "terapi kognitif",
+        "terapi perilaku kognitif"
+      ],
+      "responses": [
+        "Terapi perilaku kognitif (CBT) adalah jenis terapi psikologis yang berfokus pada pola pikir dan perilaku individu, dengan tujuan mengubah pola negatif menjadi positif."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "terapi_keluarga",
+      "patterns": [
+        "Apa itu terapi keluarga?",
+        "Terapi keluarga itu apa sih?",
+        "Maksud dari terapi keluarga itu apa?",
+        "Terapi keluarga?",
+        "Apa yang dimaksud dengan terapi keluarga?",
+        "Definisi dari terapi keluarga itu apa?",
+        "Apa sih itu terapi keluarga?",
+        "Memangnya terapi keluarga itu apa?",
+        "Apa definisi terapi keluarga?",
+        "Terapi keluarga adalah?",
+        "terapi keluarga"
+      ],
+      "responses": [
+        "Terapi keluarga adalah jenis terapi psikologis yang melibatkan seluruh keluarga dalam proses pengobatan, dengan tujuan untuk memperbaiki hubungan dan dinamika keluarga."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "terapi_pasangan",
+      "patterns": [
+        "Apa itu terapi pasangan?",
+        "Terapi pasangan itu apa sih?",
+        "Maksud dari terapi pasangan itu apa?",
+        "Terapi pasangan?",
+        "Apa yang dimaksud dengan terapi pasangan?",
+        "Definisi dari terapi pasangan itu apa?",
+        "Apa sih itu terapi pasangan?",
+        "Memangnya terapi pasangan itu apa?",
+        "Apa definisi terapi pasangan?",
+        "Terapi pasangan adalah?",
+        "terapi pasangan"
+      ],
+      "responses": [
+        "Terapi pasangan adalah jenis terapi psikologis yang melibatkan pasangan dalam proses pengobatan, dengan tujuan untuk memperbaiki hubungan dan komunikasi antara pasangan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "obat_psikotropika",
+      "patterns": [
+        "Apa itu obat psikotropika?",
+        "obat psikotropika itu apa sih?",
+        "Maksud dari obat psikotropika itu apa?",
+        "obat psikotropika?",
+        "Digunakan untuk apa obat psikotropika?",
+        "Definisi dari obat psikotropika itu apa?",
+        "Apa sih itu obat psikotropika?",
+        "Memangnya obat psikotropika itu apa?",
+        "Apa sih obat psikotropika?",
+        "obat psikotropika adalah?",
+        "obat psikotropika",
+        "obat psikotropika apa aja"
+      ],
+      "responses": [
+        "Obat psikotropika adalah obat yang digunakan untuk mengobati gangguan mental, termasuk depresi, kecemasan, dan skizofrenia."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "efek_samping_obat_pskotropika",
+      "patterns": [
+        "Apa efek samping ketika meminum obat psikotropika?",
+        "Apa saja efek samping ketika meminum obat psikotropika?",
+        "Apa efek samping ketika mengonsumsi obat psikotropika?",
+        "Apa saja efek samping ketika mengonsumsi obat psikotropika?",
+        "Efek samping obat psikotropika?",
+        "Efek samping obat psikotropika adalah",
+        "Memangnya efek samping obat psikotropika itu apa?",
+        "Bagaimana dengan efek samping obat psikotropika?",
+        "Apakah ada efek samping dari obat psikotropika",
+        "Lalu untuk efek samping dari obat psikotropika itu apa?",
+        "resiko psikotropika",
+        "efek samping psikotropika",
+        "dampak psikotropika",
+        "dampak obat terlarang buat kesehatan mental",
+        "apa saja risiko dan efek samping psikotropika buat kesehatan mental"
+      ],
+      "responses": [
+        "Risiko dan efek samping obat psikotropika dapat bervariasi, tergantung pada jenis obat dan dosisnya. Beberapa efek samping yang umum meliputi kantuk, sakit kepala, mual, dan gangguan pencernaan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "peran_psikologi",
+      "patterns": [
+        "Apa peran psikolog dalam pengobatan gangguan mental?",
+        "Apa sih peran psikolog dalam pengobatan gangguan mental?",
+        "Peran psikolog dalam pengobatan gangguan mental?",
+        "Peran psikolog dalam pengobatan gangguan mental adalah?",
+        "Memangnya peran psikolog dalam pengobatan gangguan mental itu apa?",
+        "Adakah peran psikolog dalam pengobatan gangguan mental?",
+        "Bagaimana peran psikolog dalam pengobatan gangguan mental?",
+        "Lalu apa peran psikolog dalam pengobatan gangguan mental?",
+        "Peran psikolog dalam pengobatan gangguan mental itu apa?",
+        "peran psikologi",
+        "peran psikolog",
+        "psikolog memiliki peran apa ?",
+        "peran penting psikolog"
+      ],
+      "responses": [
+        "Psikolog memainkan peran penting dalam pengobatan gangguan mental, dengan memberikan terapi psikologis dan mendukung individu dalam memecahkan masalah dan memperbaiki kesehatan mental mereka."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "peran_dukungan_sosial",
+      "patterns": [
+        "Apa peran dukungan sosial dalam pengobatan gangguan mental?",
+        "Apa sih peran dukungan sosial dalam pengobatan gangguan mental?",
+        "Peran dukungan sosial dalam pengobatan gangguan mental?",
+        "Peran dukungan sosial dalam pengobatan gangguan mental adalah?",
+        "Memangnya peran dukungan sosial dalam pengobatan gangguan mental itu apa?",
+        "Adakah peran dukungan sosial dalam pengobatan gangguan mental?",
+        "Bagaimana peran dukungan sosial dalam pengobatan gangguan mental?",
+        "Lalu apa peran dukungan sosial dalam pengobatan gangguan mental?",
+        "Peran dukungan sosial dalam pengobatan gangguan mental itu apa?",
+        "peran dukungan sosial",
+        "dukungan sosial",
+        "memerlukan dukungan sosial"
+      ],
+      "responses": [
+        "Dukungan sosial dapat membantu individu yang mengalami gangguan mental dalam proses pemulihan mereka, dengan memberikan dukungan emosional dan praktis, serta membantu mengurangi isolasi sosial."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bantuan_masalah_kesehatan_mental",
+      "patterns": [
+        "Apa yang harus dilakukan jika seseorang membutuhkan bantuan untuk masalah kesehatan mental?",
+        "Bagaimana ketika seseorang membutuhkan bantuan untuk masalah kesehatan mental?",
+        "Harus melakukan apa ketika seseorang membutuhkan bantuan untuk masalah kesehatan mental?",
+        "Bagaimana cara mencari bantuan profesional dalam bidang kesehatan mental?",
+        "Apa yang harus dilakukan jika saya atau seseorang yang saya kenal mengalami masalah kesehatan mental?",
+        "Apa langkah-langkah yang bisa diambil untuk memperbaiki kesehatan mental secara umum?",
+        "Lalu apa yang harus dilakukan jika seseorang membutuhkan bantuan untuk masalah kesehatan mental?",
+        "Bagaimana saya mengatasi masalah kesehatan mental?",
+        "Apakah ada sumber daya atau dukungan lain yang dapat membantu dalam mengatasi masalah kesehatan mental?",
+        "Bantuan darimana saja ketika saya mengalami kesehatan mental?",
+        "bantuan masalah kesehatan",
+        "masalah kesehatan membutuhkan bantuan ",
+        "mencari bantuan masalah kesehatan",
+        "bantuan masalah kesehatan",
+        "meminta bantuan masalah kesehatan ke siapa"
+      ],
+      "responses": [
+        "Jika seseorang membutuhkan bantuan untuk masalah kesehatan mental, mereka dapat mencari bantuan dari dokter, psikolog, atau terapis, atau menghubungi hotlines kesehatan mental dan organisasi yang menyediakan dukungan dan sumber daya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cara_menjaga_kesehatan_mental_sehari_hari",
+      "patterns": [
+        "Gimana cara jaga kesehatan mental",
+        "Aku gatau gimana mentalku bisa terjaga",
+        "Cara jaga mental heatlh",
+        "Apa itu mental health",
+        "Kamu tau ga, cara jaga kesehatan mental",
+        "Apa itu kesehatan mental",
+        "Cara biar aku bisa jaga kesehatan mentalku",
+        "Kesehatan mental itu apa aja",
+        "Aku pernah kena mental health",
+        "caring my mental health",
+        "menjaga kesehatan mental sehari-hari",
+        "cara menjaga keshetan mental sehari-hari",
+        "menjaga kesehatan mental",
+        "menjaga kesehatan mental sehari-hari dengan cara ?"
+      ],
+      "responses": [
+        "menjaga kesehatan mental sehari-hari dengan cara Luangkan waktu untuk melakukan aktivitas yang Anda nikmati dan mengurangi stres, Lakukan olahraga atau aktivitas fisik secara teratur untuk meningkatkan suasana hati dan mengurangi stres,  Kontrol waktu yang dihabiskan di media sosial dan fokus pada hal-hal yang positif. Kesehatan mental merujuk pada keadaan emosional, psikologis, dan sosial yang baik, di mana seseorang dapat mengelola stres, berinteraksi secara sehat dengan orang lain, dan menghadapi tantangan kehidupan dengan baik."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "manfaat_rutinitias_harian_untuk_menjaga_kesehatan_mental",
+      "patterns": [
+        "aku harus ngapain tiap hari untuk jaga kesehatan mental",
+        "rutinitas harian menentukan mental health ga",
+        "aktivitas harian apa yg harus aku lakukan biar mental health aku terjaga",
+        "saranin aku rutinitas harian dong",
+        "aku bingung apa manfaat rutinitas harian buat penderita mental health",
+        "manfaat aktivitas harian untuk kesehatan mental seseorang",
+        "ada ga aktivitas harian khusus buat penderita mental health",
+        "apa manfaat rutinitas harian?",
+        "kenapa perlu jaga aktivitas harian buat seorang penderita mental health",
+        "gimana sih manfaat rutinitas harian buat seorang mental health",
+        "rutinitas harian",
+        "kegiatan harian untuk menjaga kesehatan mental",
+        "rutinitas harian untuk kesehatan mental",
+        "manfaat aktifitas harian",
+        "manfaat rutinitas harian"
+      ],
+      "responses": [
+        "Rutinitas harian yang terstruktur membantu menciptakan perasaan keamanan, meningkatkan efisiensi, dan mengurangi stres, yang semuanya berkontribusi pada kesehatan mental yang baik."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tanda_kesehatan_mental_yang_baik",
+      "patterns": [
+        "gimana tanda kesehatan mental seseorang yg baik itu",
+        "apa tanda mental health seseorang itu baik",
+        "apa tanda kalo kesehatan mental aku baik",
+        "apa ciri mental health aku baik-baik saja",
+        "tau ga mental health yg baik itu gimana",
+        "apa tanda baiknya mental health seseorang?",
+        "aku kadang bingung loh sama mental health aku, baik atau tidak",
+        "tanda kesehatan mental aku buruk",
+        "kesehatan mental aku baik itu apa tandanya",
+        "berharap aku punya mental health yang baik",
+        "tanda kesehatan mental yang baik",
+        "kesehetan mental yang baik",
+        "tanda-tanda kesehatan mental yang baik",
+        "bagaimana tanda-tanda kesehatan mental seseorang yang baik",
+        "tanda-tanda kesehatan mental yang baik seperti apa ?"
+      ],
+      "responses": [
+        "Tanda-tanda kesehatan mental yang baik meliputi suasana hati yang stabil, tingkat energi yang cukup, kemampuan mengatasi stres, tidur yang baik, dan hubungan sosial yang sehat."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cara_mengenali_dan_mengatasi_stres_sehari_hari",
+      "patterns": [
+        "gimana cara untuk atasi stres",
+        "stres itu apa",
+        "cara supaya terhindar dari stres",
+        "aku bingung aku stres, bagaimana cara mengatasinya",
+        "stres bro gue, aku pengen mengenali stress",
+        "stres termasuk gangguan mental health ga",
+        "ada cara ga untuk mengatasi stres aku",
+        "stres itu gimana ciri-cirinya",
+        "kalo aku emosi termasuk stres ga",
+        "saran buat atasin stres",
+        "bagaimana cara mengenali dan mengatasi stress sehari-hari",
+        "adakah cara untuk mengenali dan mengatasi stress dalam kehisupan sehari-hari",
+        "mengatasi stress",
+        "mengenali stress",
+        "mengatasi stress melibatkan apa "
+      ],
+      "responses": [
+        "Mengenali stres melibatkan pemahaman akan tanda-tanda fisik dan emosional seperti ketegangan otot, kegelisahan, atau perubahan nafsu makan. Untuk mengatasi stres, praktikkanlah teknik relaksasi, olahraga teratur, tidur yang cukup, dan mengatur waktu dengan bijak."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "latihan_relaksasi_dapat_membantu_menjaga_kesehatan_mental",
+      "patterns": [
+        "ada practice yg bisa bantu jaga mental health aku ga",
+        "butuh relaksasi",
+        "jaga mental health lewat apa",
+        "relaks dulu bro",
+        "kadang kita butuh relaksasi tau",
+        "ada relaksasi yg bisa jaga kesehatan mental seseorang?",
+        "jaga mental health lewat apa sih?",
+        "kita kadang butuh relax and chill",
+        "chill dan relax",
+        "aku butuh relaksasi buat jaga mental health",
+        "apakah latihan relaksasi dapat membantu menjaga kesehatan mental ?",
+        "jika aku latihan relaksasi apakah dapat membantu menjaga kesehatan mental",
+        "latihan relaksasi seperti apa yang dapat menjaga kesehatan mental",
+        "latihan relaksasi",
+        "lahitan relaksasi dapat menjaga kesehatan mental",
+        "relaksasi"
+      ],
+      "responses": [
+        "Ya, beberapa latihan relaksasi yang dapat membantu menjaga kesehatan mental antara lain meditasi, pernapasan dalam, yoga, dan visualisasi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cara_menjaga_pola_tidur_yang baik_untuk_kesehatan_mental",
+      "patterns": [
+        "jaga pola tidur penting ga",
+        "pola tidur baik itu gimana",
+        "tidur yg baik buat mental health issue itu gimana",
+        "ada saran pola tidur buat aku?",
+        "waktu tidur berantakan mempengaruhi mental health ga",
+        "tidur berantakan di malam hari berpengaruh ga buat mental health",
+        "seberapa berpengaruh pola tidur untuk kesehatan mental",
+        "pengen jaga pola tidur aku, mulai darimana",
+        "awal mula pola tidur yg baik gimana",
+        "cara tau pola tidur aku baik gimana",
+        "Bagaimana cara mengatur pola tidur yang baik bagi kesehatan mental",
+        "Bagaimana cara mengatur pola tidur yang baik bagi mental helath",
+        "pola tidur",
+        "menjaga pola tidur",
+        "jaga pola tidur",
+        "menjaga pola tidur baik ngga buat kesehatan mental",
+        "mengatur pola tidur yang baik",
+        "mengatur pola tidur"
+      ],
+      "responses": [
+        "Menjaga pola tidur yang baik melibatkan rutinitas tidur yang konsisten,Cobalah untuk tidur dan bangun pada waktu yang sama setiap hari, termasuk hari libur. Menerapkan rutinitas tidur yang konsisten membantu mengatur ritme sirkadian tubuh dan memperbaiki kualitas tidur, menciptakan lingkungan tidur yang nyaman, menghindari stimulan sebelum tidur, dan mengatur waktu tidur yang cukup."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "dampak_positif_olahraga_terhadap_kesehatan_mental",
+      "patterns": [
+        "olahraga bisa ngurangin stres ga",
+        "stres bisa dikurangi lewat olahraga ga",
+        "kalo aku olahraga, stres bisa berkurang?",
+        "fungsi olahraga buat mental health?",
+        "dampak olahraga buat kesehatan mental?",
+        "apa dampak positif kl mental health issue berolahraga",
+        "kenapa olahraga penting?",
+        "mood aku jelek, pgn olahraga aja biar kesehatan mentalnya bagus",
+        "olahraga terus emang ada dampak positifnya untuk mental health ? ",
+        "apa dampak positif olahraga terhadap kesehatan mental",
+        "apakah jika aku olahraga dapat mendapatkan dampak positif bagi kesehatan mental ?",
+        "dampak positif olahraga",
+        "dampak olahraga",
+        "manfaat olahraga"
+      ],
+      "responses": [
+        "Ya, olahraga dapat mengurangi stres, meningkatkan mood, mengurangi gejala depresi, meningkatkan kualitas tidur, dan meningkatkan rasa percaya diri."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pentingnya_pola_makan_sehat_untuk_kesehatan_mental",
+      "patterns": [
+        "makan sehat berpengaruh ga buat mental health",
+        "kalo aku ga sehat makannya, pengaruh buat mental health ga",
+        "makan bergizi penting ga buat mental yg sehat",
+        "apakah penting makan sehat itu",
+        "kalo makanan aku ga bergizi, gimana",
+        "seberapa penting makan makanan bergizi",
+        "kadang gatau cara atur pola makan sehat aku",
+        "ada masukan buat pola makan sehat?",
+        "pola makan sehat mempengaruhi mental health seseorang kah?",
+        "makanan bepengaruh bgt ga buat kesehatan mental?",
+        "apa pentingnya pola makan sehat untuk kesehatan mental",
+        "peran penting pola makan untuk kesehatan mental",
+        "pola makan berpengaruh untuk kesehatan mental",
+        "apakah pola makan berpengaruh untuk kesehatan mental?",
+        "pola makan sehat itu penting gak si buat kesehatan mental",
+        "pola makan sehat itu penting gak si buat mental health",
+        "pola makan yang benar untuk menjaga kesehatan mental",
+        "pola makan",
+        "pola makan sehat"
+      ],
+      "responses": [
+        "Pola makan sehat memainkan peran penting dalam kesehatan mental. Penting untuk menjaga pola makan seimbang dengan memperhatikan asupan nutrisi yang tepat. Makan makanan segar, alami, dan tidak diproses, serta menghindari makanan olahan dan terlalu banyak gula, dapat membantu memperkuat kesehatan mental Anda. Makan makanan bergizi seperti buah-buahan, sayuran, ikan, dan makanan yang mengandung asam lemak omega-3 dapat membantu menjaga kesehatan otak dan suasana hati."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "menjaga_hubungan_sosial_berpengaruh_terhadap_kesehatan_mental",
+      "patterns": [
+        "bersosialisasi penting ga",
+        "menjalin hubungan sm orang penting ga",
+        "seberapa penting menjalin hubungan sm orang",
+        "menjaga hubungan sm seseorang itu penting kah",
+        "bersosialisasi berpengaruh buat mental health?",
+        "sosialiasi penting?",
+        "hubungan sosial yg baik nentuin kesehatan mental seseorang?",
+        "mental health itu butuh bersosialisasi ga",
+        "kenalan sm orang baru",
+        "meningkatkan mental health dengan cara apa?",
+        "pengaruh menjaga hubungan sosial terhadap kesehatan mental",
+        "apa pengaruh menjaga hubungan sosial terhadap kesehtaan mental ?",
+        "menjaga hubungan sosial terhadap kesehatan mental berpengaruh ngga si ?",
+        "apakah menjaga hubungan sosial terhadap kesehatan mental itu ada pengaruhnya ?",
+        "pengaruh hubungan sosial bagi kesehatan mental ",
+        "bagaimana pengaruh kesehatan mental terhadap hubungan sosial ?",
+        "bagaimana pengaruh mental health terhadap hubungan sosial ?",
+        "pentingnya sosialisasi",
+        "menjaga hubungan sosial",
+        "sosialisasi",
+        "hubungan sosial"
+      ],
+      "responses": [
+        "Ya, menjaga hubungan sosial yang baik dapat meningkatkan kesehatan mental. Interaksi sosial yang positif dapat memberikan dukungan emosional, mengurangi rasa kesepian, dan meningkatkan rasa keterhubungan. Hubungan sosial yang baik dapat memberikan dukungan emosional yang penting. Memiliki orang-orang yang dapat didukung dan didengarkan dapat membantu mengurangi stres, meningkatkan rasa percaya diri, dan membantu mengatasi tantangan dan masalah kehidupan sehari-hari."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cara_mengatur_waktu_yang_baik_penting_untuk_menjaga_kesehatan_mental_sehari-hari",
+      "patterns": [
+        "ajari saya cara mengatur waktu",
+        "bagaimana cara atur waktu?",
+        "pentingkah manajemen waktu?",
+        "seberapa penting mengatur waktu yg baik",
+        "apakah pembagian waktu menentukan mental health?",
+        "waktu yg dipergunakan dg baik mencerminkan kesehatan mental kah",
+        "bagaimana dengan pembagian waktu",
+        "penting atau tidak mengatur waktu yg baik?",
+        "jika waktuku terbuang sia-sia gimana",
+        "hubungan waktu dengan kesehatan mental apa",
+        "bagaimana cara mengatur waktu yang baik  untuk menjaga kesehatan mental sehari-hari?",
+        "cara mengatur waktu yang baik  untuk menjaga kesehatan mental sehari-hari itu penting ngga ?",
+        "apakah penting mengatur waktu yang baik untuk menjaga kesehatan mental",
+        "mengatur waktu yang baik penting untuk menjaga kesehatan mental",
+        "untuk menjaga kesehatan mental sehari hari perlu mengatur waktu yang baik",
+        "mengatur waktu yang baik penting untuk menjaga mental health",
+        "pengaturan waktu",
+        "waktu",
+        "waktu yang baik",
+        "pengaturan waktu yang baik membantu menghindari kelelahan mental"
+      ],
+      "responses": [
+        "Pengaturan waktu yang baik membantu menghindari kelelahan mental dengan memberikan waktu yang cukup untuk istirahat, rekreasi, dan pemulihan. Mengatur waktu yang baik melibatkan pengaturan jadwal yang seimbang antara tanggung jawab harian dan kegiatan yang menyenangkan. Ini termasuk memberikan waktu yang cukup untuk istirahat dan tidur yang berkualitas, menjalani aktivitas fisik teratur, mempraktikkan teknik relaksasi seperti meditasi atau pernapasan dalam, dan mengalokasikan waktu untuk hobi dan minat pribadi. Selain itu, menjaga kesehatan mental juga melibatkan membangun hubungan sosial yang sehat dan mendukung. Menghabiskan waktu dengan keluarga, teman, atau komunitas yang positif dan memberdayakan dapat meningkatkan kesejahteraan mental. Penting untuk diingat bahwa setiap orang memiliki kebutuhan yang berbeda, jadi penting untuk menyesuaikan jadwal dan rutinitas yang sesuai dengan kebutuhan pribadi. Jika Anda mengalami kesulitan dalam mengatur waktu atau merasa terlalu kewalahan, berkonsultasilah dengan profesional kesehatan mental yang dapat memberikan bantuan dan dukungan yang tepat."
+      ],
+      "context": [""]
+    }
+  ]
+}
