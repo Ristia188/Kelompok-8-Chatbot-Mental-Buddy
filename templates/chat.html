@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Kesehatan</title>
+  </head>
+  <body>
+    <h1>Mental Health Chatbot</h1>
+    <div id="chatbox"></div>
+    <input type="text" id="user-input" placeholder="Ketik pesan Anda" />
+    <button onclick="sendMessage()">Kirim</button>
+    <div id="chatbox"></div>
+
+    <script>
+      async function sendMessage() {
+        const userInput = document.getElementById("user-input").value;
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: userInput }),
+        });
+        const data = await response.json();
+        const chatbox = document.getElementById("chatbox");
+        chatbox.innerHTML += `<p>User: ${userInput}</p>`;
+        chatbox.innerHTML += `<p>Bot: ${data.response}</p>`;
+      }
+    </script>
+  </body>
+</html>
